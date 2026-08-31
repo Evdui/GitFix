@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 220px;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #6b7280;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #111827;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #374151;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#errorMessage {
+    color: #dc2626;
+    margin-top: 12px;
+}
+
+.result h2 {
+    margin-bottom: 20px;
+}
+
+#explanation {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    color: #374151;
+}
+
+.hidden {
+    display: none;
+}
+
+#explanation h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+#explanation strong {
+    font-weight: 700;
+}
+
+#explanation code {
+    background: #f1f3f5;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+#explanation li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
