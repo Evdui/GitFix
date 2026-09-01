@@ -4,7 +4,7 @@ const result = document.getElementById("result");
 const explanation = document.getElementById("explanation");
 const errorMessage = document.getElementById("errorMessage");
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://gitfix-27m2.onrender.com";
 
 function formatExplanation(text) {
     const escaped = text
